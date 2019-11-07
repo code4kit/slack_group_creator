@@ -13,6 +13,7 @@ const rtm = new RTMClient(process.env.USERTOKEN);
 const webClient = new WebClient(process.env.TOKEN);
 const webClient2 = new WebClient(process.env.USERTOKEN);
 
+
 rtm.on('message', (event) => {
   if (!('text' in event)) {
     return;
@@ -69,8 +70,8 @@ const create = (event, msg) => {
 const sendMessage = (ch, ts, text) => {
   webClient2.chat.postMessage({
     channel: ch,
-    username: 'testing bot',
-    icon_emoji: ':smile:',
+    username: `${process.env.NAME}`,
+    icon_emoji: `:${process.env.ICON}:`,
     thread_ts: ts,
     text
   }).catch(err => console.log(err));
@@ -80,6 +81,6 @@ rtm.start();
 
 http.createServer((req, res) => {
   res.writeHead(200, { 'Content-Type': 'text/html' });
-  res.write('testign');
+  res.write('slack group creator');
   res.end();
-}).listen(3000, '0.0.0.0', () => console.log('this listening in port 3000'));
+}).listen(process.env.PORT, '0.0.0.0', () => console.log(`Listening to port ${process.env.PORT}`));
