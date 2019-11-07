@@ -10,7 +10,7 @@
     "lint": "semistandard",
     "commit": "git cz",
     "standard": "semistandard --fix",
-    "document": "documation build -f md ./index.js | add-text-to-markdown ./DOCUMENT.md --section 'DocumentationJS' --write",
+    "document": "documentation build -f md ./index.js | add-text-to-markdown ./DOCUMENT.md --section 'DocumentationJS' --write",
     "readme": "npx readme-md-generator"
   },
   "dependencies": {
