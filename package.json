@@ -3,7 +3,15 @@
   "version": "1.0.0",
   "description": "a bot to create private group",
   "main": "index.js",
-  "author": "Kaito",
+  "author": "code4kit",
+  "contributors": [
+    "shion0625",
+    "yeohsoonkeat"
+  ],
+  "engines": {
+    "yarn": "1.19.1",
+    "node": "12.12.0"
+  },
   "license": "MIT",
   "scripts": {
     "start": "node index.js",
