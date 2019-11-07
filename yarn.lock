@@ -3496,7 +3496,7 @@ kind-of@^6.0.0, kind-of@^6.0.2:
   resolved "https://registry.yarnpkg.com/kind-of/-/kind-of-6.0.2.tgz#01146b36a6218e64e58f3a8d66de5d7fc6f6d051"
   integrity sha512-s5kLOcnH0XqDO+FvuaLX8DDjZ18CGFk7VygH40QoKPUQhW4e2rvM0rwUq0t8IQDOwYSeLK01U90OjzBTme2QqA==
 
-kocha@^1.9.1:
+kocha@1.9.1:
   version "1.9.1"
   resolved "https://registry.yarnpkg.com/kocha/-/kocha-1.9.1.tgz#e21df63c842ded51a40b25a95eafd30f808a5443"
   integrity sha512-FN/ORjmphV9aaDGkK2a8LfonS74WqxMeGnpgIfQo1lcoy2LGG75brGITkx9SjMrEVq9jtDhMYPQYetdVLjAn7Q==
