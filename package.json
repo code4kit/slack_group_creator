@@ -1,0 +1,32 @@
+{
+  "name": "slack_group_creator",
+  "version": "1.0.0",
+  "description": "a bot to create private group",
+  "main": "index.js",
+  "author": "Kaito",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js",
+    "lint": "semistandard",
+    "commit": "git cz",
+    "standard": "semistandard --fix",
+    "document": "documation build -f md ./index.js | add-text-to-markdown ./DOCUMENT.md --section 'DocumentationJS' --write",
+    "readme": "npx readme-md-generator"
+  },
+  "dependencies": {
+    "@slack/client": "^5.0.2",
+    "dotenv": "^8.2.0"
+  },
+  "devDependencies": {
+    "add-text-to-markdown": "^2.0.0",
+    "commitizen": "^4.0.3",
+    "cz-emoji": "^1.1.2",
+    "documentation": "^12.1.3",
+    "semistandard": "^14.2.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-emoji/"
+    }
+  }
+}
