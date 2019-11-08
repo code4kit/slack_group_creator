@@ -10,7 +10,7 @@
   ],
   "engines": {
     "yarn": "1.19.1",
-    "node": "12.12.0"
+    "node": "12.13.0"
   },
   "license": "MIT",
   "scripts": {
