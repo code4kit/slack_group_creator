@@ -2,11 +2,12 @@
   "name": "slack_group_creator",
   "version": "1.0.0",
   "description": "a bot to create private group",
-  "main": "index.js",
+  "main": "./src/index.js",
   "author": "code4kit",
   "contributors": [
     "shion0625",
-    "yeohsoonkeat"
+    "yeohsoonkeat",
+    "waricoma"
   ],
   "engines": {
     "yarn": "1.19.1",
@@ -14,11 +15,10 @@
   },
   "license": "MIT",
   "scripts": {
-    "start": "node index.js",
-    "lint": "semistandard",
+    "start": "node ./src/index.js",
     "commit": "git cz",
     "standard": "semistandard --fix",
-    "document": "documentation build -f md ./index.js | add-text-to-markdown ./DOCUMENT.md --section 'DocumentationJS' --write",
+    "document": "documentation build -f md ./src | add-text-to-markdown ./DOCUMENT.md --section 'DocumentationJS' --write",
     "readme": "npx readme-md-generator"
   },
   "dependencies": {

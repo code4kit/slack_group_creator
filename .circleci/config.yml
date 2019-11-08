@@ -21,6 +21,3 @@ jobs:
       - run:
           name: check coding format
           command: yarn run standard
-      - run:
-          name: linting
-          command: yarn run lint
