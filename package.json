@@ -31,7 +31,7 @@
     "cz-emoji": "1.2.0",
     "documentation": "12.1.4",
     "kocha": "1.9.1",
-    "semistandard": "14.2.0"
+    "semistandard": "17.0.0"
   },
   "config": {
     "commitizen": {
